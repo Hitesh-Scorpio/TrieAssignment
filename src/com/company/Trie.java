@@ -33,7 +33,6 @@ public class Trie
       tNode = tNode.childNodes[j];
     }
 
-    // mark last node as leaf
     tNode.isEndOfWord = true;
   }
 
